@@ -381,3 +381,9 @@
    padding: 0px;
    font-size: 12px;
 }
+
+@media screen and (max-width:1200px){
+   .container{
+      margin:0;
+   }
+}
