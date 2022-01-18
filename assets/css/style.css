@@ -184,15 +184,13 @@ a{
    border-radius: 20px;
    padding: 3%;
 }
-.hosting__list h2{
-   font-size: 18px;
-}
 
-.hosting__list p{
+.hosting__activities__link{
    margin-top: 5%;
-   font-size: 14px;
+   font-size: 18px;
    font-weight: 600;
 }
+
 .hosting__list__container__cards{
    display: flex;
    flex-wrap: wrap;
@@ -270,14 +268,12 @@ a{
    align-items: center;
 }
 
-.hosting__trend__title h2{
-   font-size: 18px;
-}
 .hosting__trend__container__cards{
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
 }
+
 .hosting__trend__card{
    border-radius: 20px;
    background-color: white;
@@ -322,9 +318,6 @@ a{
    min-height: 550px;
 }
 
-.hosting__activities h2{
-   font-size: 18px;
-}
 .hosting__activities__container{
    display: flex;
    justify-content: space-between;
