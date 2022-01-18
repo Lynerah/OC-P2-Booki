@@ -11,7 +11,7 @@
    <header class="container">
       <nav class="navbar">
          <div class="navbar__container">
-            <a class="navbar__logo" href="#"><img src="assets/images/logo/Booki@3x.png" alt=""></a>
+            <a class="navbar__logo" href="#"><img class="navbar__logo__img" src="assets/images/logo/Booki@3x.png" alt=""></a>
             <button class="navbar__burger">
                <span class=""><i class="fas fa-bars"></i></span>
             </button>
@@ -28,40 +28,52 @@
          </div>
       </nav>
       
-      <div class="heading__container">
-         <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
+      <div>
+         <h2 class="heading__title">Trouvez votre hébergement pour des vacances de rêve</h2>
          <p>En plein centre ville ou en pleine nature</p>
 
          <form class="heading__form" action="">
             <div class="heading__form__label">
                <label for="town"><i class="fas fa-map-marker-alt"></i></label>
             </div>
-            <div class="heading__form__input">
-               <input id="town" type="text" placeholder="Town" value="Marseille, France">
+            <div class="heading__form__container">
+               <input class="heading__form__input" id="town" type="text" placeholder="Town" value="Marseille, France">
             </div>
-            <div class="heading__form__button">
-               <button>Rechercher</button>
+            <div class="heading__form__button__container">
+               <button class="heading__form__button">Rechercher</button>
             </div>
          </form>
 
-         <div class="filter-container">
+         <div class="filter__container">
             <p>Filtres</p>
-            <div class="filter__container__button">
-               <button><i class="fas fa-money-bill-wave"></i><span>Economique</span></button>
+            <div class="filter__button__container">
+               <button class="filter__button">
+                  <i class="filter__button__icon fas fa-money-bill-wave"></i>
+                  <span class="filter__button__span">Economique</span>
+               </button>
             </div>
-            <div class="filter__container__button">
-               <button><i class="fas fa-child"></i><span>Familiale</span></button>
+            <div class="filter__button__container">
+               <button class="filter__button">
+                  <i class="filter__button__icon fas fa-child"></i>
+                  <span class="filter__button__span">Familiale</span>
+               </button>
             </div>
-            <div class="filter__container__button">
-               <button><i class="fas fa-heart"></i><span>Romantique</span></button>
+            <div class="filter__button__container">
+               <button class="filter__button">
+                  <i class="filter__button__icon fas fa-heart" ></i>
+                  <span class="filter__button__span">Romantique</span>
+               </button>
             </div>
-            <div class="filter__container__button">
-               <button><i class="fas fa-dog"></i><span>Animaux autorisés</span></button>
+            <div class="filter__button__container">
+               <button class="filter__button">
+                  <i class="filter__button__icon fas fa-dog"></i>
+                  <span class="filter__button__span">Animaux autorisés</span>
+               </button>
             </div>
          </div>
          
-         <div class="heading__infoText">
-            <div>
+         <div class="heading__info__text__container">
+            <div class="heading__info__text">
                <i class="fas fa-info"></i>
             </div>
             <p>
@@ -75,7 +87,7 @@
          <div class="hosting__container__layer hosting__list__container">
             <h2 class="hosting__activities__title">Hebergements à Marseille</h2>
             <div class="hosting__list__container__cards">
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
                   </div>
@@ -91,7 +103,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
                   </div>
@@ -107,7 +119,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
                   </div>
@@ -123,7 +135,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
                   </div>
@@ -139,7 +151,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
                   </div>
@@ -155,7 +167,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__card">
+               <div class="card__shadow card__layout hosting__card">
                   <div class="hosting__card__container__img">
                      <img src="assets/images/hebergement/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
                   </div>
@@ -180,7 +192,7 @@
                <i class="fas fa-chart-line"></i>
             </div>
             <div class="hosting__trend__container__cards">
-               <div class="card__shadow hosting__trend__card">
+               <div class="card__shadow card__layout hosting__trend__card">
                   <div class="hosting__trend__card__img">
                      <img src="assets/images/hebergement/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
                   </div>
@@ -198,7 +210,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__trend__card">
+               <div class="card__shadow card__layout hosting__trend__card">
                   <div class="hosting__trend__card__img">
                      <img src="assets/images/hebergement/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
                   </div>
@@ -216,7 +228,7 @@
                      </div>
                   </div>
                </div>
-               <div class="card__shadow hosting__trend__card">
+               <div class="card__shadow card__layout hosting__trend__card">
                   <div class="hosting__trend__card__img">
                      <img src="assets/images/hebergement/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
                   </div>

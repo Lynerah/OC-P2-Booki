@@ -6,6 +6,7 @@
    --color-blue:#0065fc;
    --color-lightblue:#deebff;
 }
+
 * {
    box-sizing: border-box;
    font-family: 'Raleway', sans-serif;
@@ -22,13 +23,19 @@ a{
    box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05); 
 }
 
+.card__layout{
+   border-radius: 20px;
+   background-color: white;
+   padding: 4px;
+}
+
 .container{
    margin: 0 auto;
    max-width: 1792px;
    padding: 0 3%;
 }
 
-.color__footer{
+.color__background{
    background-color: var(--color-grey);
 }
 
@@ -41,7 +48,7 @@ a{
    align-items: center;
 }
 
-.navbar__logo > img{
+.navbar__logo__img{
    width: 100px;
 }
 .navbar__burger{
@@ -70,7 +77,7 @@ a{
    color: var(--color-blue);
 }
 
-.heading__container h2{
+.heading__title{
    margin-bottom: 4px;
 }
 
@@ -80,6 +87,7 @@ a{
    margin-bottom: 3%;
    height: 40px;
 }
+
 .heading__form__label{
    background-color: var(--color-grey);
    height: 100%;
@@ -90,33 +98,32 @@ a{
    border-radius: 10px 0 0 10px;
 }
 
-.heading__form__input{
+.heading__form__container{
    border: 1px solid var(--color-grey);
    padding: 0 1%;
-   /* max-height: 30px; */
     display: flex;
 }
-.heading__form__input input{
+
+.heading__form__input{
    border: none;
    font-weight: 600;
 }
 
-.heading__form__button{
+.heading__form__button__container{
    background-color: var(--color-blue);
-   /* max-height: 30px; */
    border-radius: 0 10px 10px 0;
    display: flex;
    padding: 4px;
 }
 
-.heading__form__button button{
+.heading__form__button{
    background-color: transparent;
    border: none;
    color: white;
    font-weight: 500;
 }
 
-.filter-container{
+.filter__container{
    display: flex;
    justify-content: space-between;
    width: 60%;
@@ -126,17 +133,14 @@ a{
    font-weight: 600;
 }
 
-
-.filter__container__button{
-   /* background-color: lightskyblue; */
+.filter__button__container{
    border-radius: 30px;
    min-width: 64px;
    display: flex;
    border: 2px solid var(--color-grey);
-   /* font-weight: 600; */
 }
 
-.filter__container__button button{
+.filter__button{
    background: transparent;
    margin: 0;
    padding: 0;
@@ -144,10 +148,9 @@ a{
    display: flex;
    align-items: center;
    font-weight: 600;
-
 }
 
-.filter__container__button > button > i{
+.filter__button__icon{
    background-color: var(--color-lightblue);
    color: var(--color-blue);
    min-width: 41px;
@@ -158,16 +161,17 @@ a{
    align-items: center;
    justify-content: center;
 }
-.filter__container__button > button > span {
+.filter__button__span{
    margin: 0 16px 0 16px;
 }
 
-.heading__infoText{
+.heading__info__text__container{
    display: flex;
    align-items: center;
    margin-bottom: 3%;
 }
-.heading__infoText div{
+
+.heading__info__text{
    width: 25px;
    height: 25px;
    border: 1px solid var(--color-grey);
@@ -213,9 +217,6 @@ a{
    min-height: 430px;
 }
 .hosting__card{
-   border-radius: 20px;
-   background-color: white;
-   padding: 4px;
    width: 30%;
    height: 200px;
 }
@@ -279,9 +280,7 @@ a{
 }
 
 .hosting__trend__card{
-   border-radius: 20px;
-   background-color: white;  
-   padding: 4px;
+
    display: flex;
    justify-content: space-between;
    height: 150px;
