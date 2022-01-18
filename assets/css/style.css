@@ -16,6 +16,12 @@ a{
    text-decoration: none;
 }
 
+.card__shadow{
+   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
+   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
+   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05); 
+}
+
 .container{
    margin: 0 auto;
    max-width: 1792px;
@@ -201,9 +207,6 @@ a{
 .hosting__card{
    border-radius: 20px;
    background-color: white;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
    padding: 4px;
    width: 30%;
    height: 247px;
@@ -219,10 +222,9 @@ a{
    border-radius: 20px 20px 0 0;
 }
 .hosting__card__text{
-   margin-left: 3%;
    height: 38%;
-   justify-content: space-evenly;
    position: relative;
+   padding: 5%;
 }
 .hosting__card__text h3{
    font-size: 16px;
@@ -237,13 +239,12 @@ a{
 .hosting__card__star{
    display: flex;
    position: absolute;
-   bottom: 5px;
+   bottom: 15%;
 }
 .hosting__card__star--trend{
-   /* margin-top: 10px; */
    display: flex;
    position: absolute;
-   bottom: 5px;
+   bottom: 15%;
 }
 
 .star-grey{
@@ -276,10 +277,7 @@ a{
 
 .hosting__trend__card{
    border-radius: 20px;
-   background-color: white;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.35);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.35);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.35);  
+   background-color: white;  
    padding: 4px;
    display: flex;
    justify-content: space-between;
@@ -336,9 +334,6 @@ a{
 
 .hosting__activities__card{
    border-radius: 20px;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05); 
    height: 100%;
 }
 
@@ -374,28 +369,19 @@ a{
 .hosting__activities__card--twins--layer1{
    height: 45%;
    width: 100%;
-   border-radius: 20px;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);   
+   border-radius: 20px; 
 }
 
 .hosting__activities__card--twins--layer2{
    height: 35%;
    width: 100%;
-   border-radius: 20px;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);   
+   border-radius: 20px;  
 }
 
 .hosting__activities__card--twins--layer3{
    height: 55%;
    width: 100%;
-   border-radius: 20px;
-   -webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   -moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);  
-   box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.05);   
+   border-radius: 20px; 
 }
 
 .footer__container{
