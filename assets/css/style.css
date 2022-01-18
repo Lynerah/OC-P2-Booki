@@ -184,11 +184,19 @@ a{
    display: flex;
 }
 
-.hosting__list{
-   width: 70%;
+.hosting__container__layer{
    background-color: var(--color-grey);
    border-radius: 20px;
-   padding: 3%;
+   padding: 3.5%;
+}
+
+.hosting__list__container{
+   width: 70%;
+}
+
+.hosting__trend__container{
+   width: 30%;
+   margin-left: 3.5%;
 }
 
 .hosting__activities__link{
@@ -202,14 +210,14 @@ a{
    flex-wrap: wrap;
    justify-content: space-between;
    align-content: space-between;
-   min-height: 545px;
+   min-height: 430px;
 }
 .hosting__card{
    border-radius: 20px;
    background-color: white;
    padding: 4px;
    width: 30%;
-   height: 247px;
+   height: 200px;
 }
 
 .hosting__card__container__img{
@@ -255,14 +263,6 @@ a{
    color: var(--color-blue);
 }
 
-.hosting__trend{
-   width: 30%;
-   min-height: 600px;
-   background-color: var(--color-grey);
-   border-radius: 20px;
-   padding: 3%;
-   margin-left: 5%;
-}
 .hosting__trend__title{
    display: flex;
    justify-content: space-between;
@@ -271,8 +271,9 @@ a{
 
 .hosting__trend__container__cards{
    display: flex;
-   justify-content: space-between;
    flex-wrap: wrap;
+   align-content: space-between;
+   min-height: 530px;
 }
 
 .hosting__trend__card{
@@ -281,7 +282,7 @@ a{
    padding: 4px;
    display: flex;
    justify-content: space-between;
-   height: 100px;
+   height: 150px;
    width: 100%;
    margin-bottom: 10px;
 }
