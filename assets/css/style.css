@@ -317,7 +317,6 @@ a{
 }
 .hosting__activities{
    margin: 5% 0;
-   min-height: 550px;
 }
 
 .hosting__activities__container{
@@ -392,16 +391,21 @@ a{
    display: flex;
    justify-content: space-between;
    width: 75%;
+   padding: 3%
 }
 
 .footer__list__title{
-   font-size: 18px;
+   font-size: 20px;
 }
 
 .footer__list__menu{
    list-style: none;
    padding: 0px;
-   font-size: 12px;
+   font-size: 16px;
+}
+
+.footer__list__item{
+   line-height: 2;
 }
 
 @media screen and (max-width:1792px){
