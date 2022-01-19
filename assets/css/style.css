@@ -35,6 +35,7 @@ a{
    padding: 0 3%;
 }
 
+
 .color__background{
    background-color: var(--color-grey);
 }
@@ -230,6 +231,15 @@ a{
 /* Heading site end */
 /* Heading mobile */
 @media screen and (max-device-width: 768px) {
+   .display__none{
+      display: none;
+   }
+   .heading__form__container{
+      flex-grow: 2;
+   }
+   .heading__form__button__container {
+      border-radius: 10px;
+   }
    .filter__container{
       width: 100%;
       height: auto;
@@ -383,13 +393,23 @@ a{
 @media screen and (max-device-width: 768px) {
    .hosting__container{
       flex-wrap: wrap;
+      margin: -3%;
    }
    .hosting__list__container{
       width: 100%;
       order: 1;
    }
+   .hosting__container__layer {
+      border-radius: 0;
+   }
+
+   .hosting__container__layer:first-child{
+      background-color: transparent;
+   }
+
    .hosting__trend__container{
       width: 100%;
+      margin: 16px 0 16px 0;
    }
    .hosting__card{
       width: 100%;
@@ -399,6 +419,7 @@ a{
 }
 /* section 1 mobile end */
 
+/*Section 2*/
 .hosting__activities{
    margin: 5% 0;
 }
@@ -470,7 +491,28 @@ a{
    width: 100%;
    border-radius: 20px; 
 }
+/*Section 2 end*/
 
+/*Section 2 mobile*/
+@media screen and (max-device-width: 768px) {
+   .hosting__activities__container{
+      flex-wrap: wrap;
+   }
+   .hosting__activities__cards{
+      width: 100%;
+      height: auto;
+   }
+   .hosting__activities__card {
+      height: 200px;
+   }
+   .card__layer__twins__mobile{
+      height: 200px;
+   }
+}
+
+/*Section 2 mobile end*/
+
+/*Footer*/
 .footer__container{
    display: flex;
    justify-content: space-between;
@@ -491,6 +533,18 @@ a{
 .footer__list__item{
    line-height: 2;
 }
+/*Footer end*/
+/*Footer mobile*/
+@media screen and (max-device-width: 768px) {
+   .footer__container{
+      flex-wrap: wrap;
+      width: 100%;
+   }
+   .footer__container__list{
+      width: 100%;
+   }
+}
+/*Footer mobile end*/
 
 @media screen and (max-width:1792px){
    .container{
