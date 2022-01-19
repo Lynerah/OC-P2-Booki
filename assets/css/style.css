@@ -171,6 +171,10 @@ a{
    font-weight: 500;
 }
 
+.display__none--desktop{
+   display: none;
+}
+
 .filter__container{
    display: flex;
    justify-content: space-between;
@@ -234,7 +238,7 @@ a{
 /* Heading site end */
 /* Heading mobile */
 @media screen and (max-device-width: 768px) {
-   .display__none{
+   .display__none--mobile{
       display: none;
    }
    .heading__form__container{
