@@ -239,9 +239,11 @@ a{
    }
    .heading__form__container{
       flex-grow: 2;
+      padding: 0 4%;
    }
    .heading__form__button__container {
       border-radius: 10px;
+      width: 40px;
    }
    .filter__container{
       width: 100%;
@@ -504,12 +506,14 @@ a{
    .hosting__activities__cards{
       width: 100%;
       height: auto;
+      margin-bottom: 16px;
    }
    .hosting__activities__card {
       height: 200px;
    }
    .card__layer__twins__mobile{
       height: 200px;
+      margin-bottom: 16px;
    }
 }
 
