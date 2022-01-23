@@ -215,12 +215,12 @@ a{
 
 .filter__container{
    display: flex;
-   justify-content: space-between;
-   width: 60%;
+   width: 100%;
    height: 40px;
    align-items: center;
    margin-bottom: 3%;
    font-weight: 600;
+
 }
 
 .filter__button__container{
@@ -228,6 +228,7 @@ a{
    min-width: 64px;
    display: flex;
    border: 2px solid var(--color-grey);
+   margin-right: 16px;
 }
 
 .filter__button{
@@ -273,6 +274,10 @@ a{
    justify-content: center;
    margin-right: 1%;
    color: var(--color-blue);
+}
+
+.filter__container__label{
+   margin-right: 16px;
 }
 /* Heading site end */
 /* Heading tablette */
