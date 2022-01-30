@@ -242,6 +242,9 @@ a{
    
 }
 
+.filter__button__container:hover{
+   background-color: var(--color-blue);
+}
 .filter__button__icon{
    background-color: var(--color-lightblue);
    color: var(--color-blue);
@@ -363,7 +366,8 @@ a{
    flex-wrap: wrap;
    justify-content: space-between;
    align-content: space-between;
-   min-height: 430px;
+   min-height: 444px;
+   max-height: 545px;
 }
 .hosting__card{
    width: 30%;
@@ -387,7 +391,7 @@ a{
    line-height: 1.6;
 }
 .hosting__card__text h3{
-   font-size: 16px;
+   font-size: 1.3vw;
    margin: 0 ;
 }
 .hosting__card__text p{
@@ -441,6 +445,10 @@ a{
    width: 100%;
    margin-bottom: 10px;
 }
+.card__link{
+   width: 100%;
+}
+
 
 .hosting__trend__card__img{
    width: 35%;
@@ -462,7 +470,7 @@ a{
 
 .hosting__trend__card__text > div > h3{
    margin: 0;
-   font-size: 18px;
+   font-size: 1.3vw;
 }
 
 .hosting__trend__card__text > div > p{
@@ -717,5 +725,13 @@ a{
 @media screen and (max-width:1792px){
    .container{
       margin:0;
+   }
+}
+@media screen and (min-width:1500px){
+   .hosting__card__text h3{
+      font-size: 18px;
+   }
+   .hosting__trend__card__text > div > h3{
+      font-size: 18px;
    }
 }
